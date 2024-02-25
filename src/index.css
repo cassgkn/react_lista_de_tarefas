@@ -101,6 +101,9 @@ p {
         margin-left: 35px;
     }
 
+    form {
+      display: block;
+    }
     form ul {
         display: block;
         justify-content: center;
@@ -124,4 +127,8 @@ p {
     p {
         margin: 10px 35px; /* Adicione margens adequadas ao parágrafo */
     }
+    button {
+        display: block;
+        align-items: center;
+        justify-content: center;
 }
