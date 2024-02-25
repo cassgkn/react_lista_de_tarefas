@@ -112,7 +112,6 @@ p {
 
     input[type="text"] {
         margin: 10px 35px;
-        width: 90%;
     }
 
     ul {
@@ -132,7 +131,7 @@ p {
         display: block;
         align-items: center;
         justify-content: center;
-        width: 83%;
+        width: 82%;
         margin-left: 35px;
         margin-right: 10px;
         font-weight: bold;
