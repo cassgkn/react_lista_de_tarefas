@@ -127,7 +127,8 @@ p {
     p {
         margin: 10px 35px; /* Adicione margens adequadas ao parágrafo */
     }
-    button[type="submit"] {
+    button[type="submit"],
+    button[type="onClick"]  {
         display: block;
         align-items: center;
         justify-content: center;
@@ -135,5 +136,5 @@ p {
         margin-left: 35px;
         margin-right: 10px;
         font-weight: bold;
-        
+    }      
 }
