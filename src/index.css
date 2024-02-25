@@ -119,7 +119,7 @@ p {
     }
 
     li {
-        width: 93%; /* Tornar os itens da lista ocupando 100% da largura disponível */
+        width: 90%; /* Tornar os itens da lista ocupando 100% da largura disponível */
         margin-left: 35px;
         margin-right: 10px; 
     }
