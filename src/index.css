@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Arial sans-serif";
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 42px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 640px;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li:hover,
+input:hover {
+    border: 3px solid #000;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #f4791f;
+}
+
+
+input[type="text"] {
+    text-align: left;
+    padding: 10px 15px;
+    margin: 10px 20px 15px 0px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+span {
+    color: #000;
+}
+
+label {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-bottom: 30px;
+    }
+    label {
+        margin-left: 35px;
+    }
+
+    form ul {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        margin: 10px 35px; /* Adicione margens adequadas ao input */
+    }
+
+    ul {
+        width: 90%; /* Tornar a lista ocupando 100% da largura disponível */
+    }
+
+    li {
+        width: 93%; /* Tornar os itens da lista ocupando 100% da largura disponível */
+        margin-left: 35px;
+        margin-right: 10px 
+    }
+
+    p {
+        margin: 10px 35px; /* Adicione margens adequadas ao parágrafo */
+    }
+}
